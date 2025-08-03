@@ -1,0 +1,41 @@
+.bebidas-container {
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.bebidas-titulo {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+.bebidas-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.bebida-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.bebida-card h3 {
+  margin-bottom: 12px;
+  color: #444;
+}
+
+.bebida-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.bebida-card li {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  color: #555;
+}
