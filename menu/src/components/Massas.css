@@ -1,0 +1,23 @@
+.massas-container {
+  padding: 20px;
+}
+
+.massas-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.massa-card {
+  background: #fefefe;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+
+.massa-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}

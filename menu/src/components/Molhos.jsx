@@ -1,19 +1,9 @@
-export default function Molhos() {
-  const molhos = [
-    'Alla Puttanesca',
-    'Al Pesto di Basilico',
-    'Cacio e Pepe',
-    'Alla Matriciana',
-  ];
-
+export default function Molhos({ molhos }) {
   return (
-    <section>
-      <h2>Molhos Disponíveis</h2>
-      <ul>
-        {molhos.map((molho, index) => (
-          <li key={index}>{molho}</li>
-        ))}
-      </ul>
-    </section>
+    <ul>
+      {molhos.map((molho, index) => (
+        <li key={index}>{molho}</li>
+      ))}
+    </ul>
   );
 }
