@@ -1,0 +1,23 @@
+.gnocchis-container {
+  padding: 20px;
+}
+
+.gnocchi-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.gnocchi-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  background-color: #fffdf7;
+  border-radius: 8px;
+}
+
+.gnocchi-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
