@@ -1,8 +1,6 @@
 import './Apresentacao.css';
 import fachada from '../assets/fachada_restaurante_exemplo.jpeg';
 
-
-
 function Apresentacao() {
   return (
     <section className="apresentacao">
@@ -12,7 +10,7 @@ function Apresentacao() {
       </div>
       <div className="imagem">
         <img
-          src= {fachada}
+          src={fachada}
           alt="Fachada do restaurante Mamamia Massas"
         />
       </div>

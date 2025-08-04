@@ -1,34 +1,43 @@
-
-.Apresentacao {
+.apresentacao {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 3rem 2rem;
-  gap: 2rem;
-  background-color: #fffaf0;
+  align-items: flex-start;  /* Alinha tudo no topo */
+  padding: 40px 20px;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap; /* Garante que fique responsivo */
 }
 
 .texto {
   flex: 1;
+  min-width: 280px;
 }
 
 .texto h2 {
   font-size: 2rem;
-  margin-bottom: 1rem;
-  color: #8b0000;
+  margin-bottom: 10px;
+  color: #ffffff;
 }
 
 .texto p {
   font-size: 1.2rem;
-  color: #333;
+  color: #ffffff;
 }
 
 .imagem {
   flex: 1;
-  text-align: right;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 280px;
 }
 
 .imagem img {
   max-width: 100%;
+  height: auto;
+  max-height: 500px; /* Aumente aqui para permitir imagem maior */
+  object-fit: contain;
   border-radius: 8px;
 }
+

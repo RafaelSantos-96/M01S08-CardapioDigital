@@ -4,20 +4,52 @@
 
 .massas-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); /* 3 cards por linha */
   gap: 20px;
 }
 
 .massa-card {
-  background: #fefefe;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  border: 1px solid #ccc;
   padding: 10px;
+  background-color: #fffdf7;
+  border-radius: 8px;
   text-align: center;
 }
 
 .massa-card img {
   width: 100%;
   height: auto;
-  border-radius: 6px;
+  border-radius: 5px;
 }
+
+.massa-card h3 {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+ .massa-card p {
+  font-size: 16px;
+  color: #333;
+  margin: 8px 0;
+}
+
+}
+
+.massa-card h4 {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #444;
+}
+.massa-card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 8px 0;
+  text-align: left;
+}
+
+.massa-card li {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}
+

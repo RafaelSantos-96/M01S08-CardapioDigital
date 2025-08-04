@@ -21,3 +21,11 @@
   height: auto;
   border-radius: 5px;
 }
+
+.gnocchi-card h3,
+.gnocchi-card p {
+  margin-top: 10px;
+  color: #333;
+  font-weight: bold;
+}
+

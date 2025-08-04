@@ -1,41 +1,47 @@
 import Molhos from './Molhos';
 import './Massas.css';
+import espaguete from '../assets/massa_espaguete_exemplo.jpeg';
+import tagliatelle from '../assets/massa_tagliatelle_exemplo.jpeg';
+import fettuccine from '../assets/massa_fettuccine_exemplo.jpeg';
+import penne from '../assets/massa_penne_exemplo.jpeg';
+import rigatoni from '../assets/massa_rigatoni_exemplo.jpeg';
+import pappardelle from '../assets/massa_pappardelle_exemplo.jpeg';
 
 const massasData = [
   {
     nome: 'Espaguete',
     preco: 'R$ 29,00',
-    imagem: '/src/assets/massa_espaguete_exemplo.jpeg',
+    imagem: espaguete,
     molhos: ['Alla Puttanesca', 'Al Pesto di Basilico', 'Cacio e Pepe', 'Alla Matriciana'],
   },
   {
     nome: 'Tagliatelle',
     preco: 'R$ 31,00',
-    imagem: '/src/assets/massa_tagliatelle_exemplo.jpeg',
+    imagem:tagliatelle,
     molhos: ['Alla Puttanesca', 'Alla Matriciana'],
   },
   {
     nome: 'Fettuccine',
     preco: 'R$ 30,00',
-    imagem: '/src/assets/massa_fettuccine_exemplo.jpeg',
+    imagem: fettuccine,
     molhos: ['Alla Puttanesca', 'Al Pesto di Basilico', 'Cacio e Pepe'],
   },
   {
     nome: 'Penne',
     preco: 'R$ 28,00',
-    imagem: '/src/assets/massa_penne_exemplo.jpeg',
+    imagem: penne,
     molhos: ['Alla Puttanesca', 'Cacio e Pepe'],
   },
   {
     nome: 'Rigatoni',
     preco: 'R$ 29,00',
-    imagem: '/src/assets/massa_rigatoni_exemplo.jpeg',
+    imagem: rigatoni,
     molhos: ['Alla Matriciana'],
   },
   {
     nome: 'Pappardelle',
     preco: 'R$ 32,00',
-    imagem: '/src/assets/massa_pappardelle_exemplo.jpeg',
+    imagem: pappardelle,
     molhos: ['Alla Puttanesca', 'Alla Matriciana'],
   },
 ];
