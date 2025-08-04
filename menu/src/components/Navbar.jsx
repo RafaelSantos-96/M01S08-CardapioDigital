@@ -19,7 +19,7 @@ function Navbar({ paginaAtiva, setPaginaAtiva }) {
                 border: 'none',
                 cursor: 'pointer',
                 fontWeight: paginaAtiva === id ? 'bold' : 'normal',
-                color: paginaAtiva === id ? '#b22222' : 'black',
+                color: paginaAtiva === id ? '#b22222' : 'white',
                 fontSize: '1rem',
               }}
             >
